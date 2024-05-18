@@ -58,7 +58,7 @@ Run the development server:
 
 bash
 npm run dev
-Open your browser and visit http://localhost:3000 to view your portfolio.
+Open your browser and visit http://localhost:5173 to view your portfolio.
 
 Production
 Build the project for production:

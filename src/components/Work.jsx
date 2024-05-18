@@ -10,19 +10,19 @@ const data = [
       "This is my first javascript project. It comprises of Addition, Subtraction, Multiplication, ",
   },
   {
-    year: 2020,
-    title: "content Creator",
+    year: 2023,
+    title: "Nation Solver",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem maxime quae fuga ea labore corrupti iusto at! Voluptatem, deserunt sit commodi ullam reprehenderit ipsa libero fugiat distinctio. Nesciunt, animi.",
+      "Built this project 2023 actually that when i started html and css, this project is all about what nations lack, solving problems that are locally and nationally and giving the people another chance to leave and to be able to correct what is coming their way ",
   },
   {
-    year: 2020,
-    title: "content Creator",
+    year: 2023,
+    title: "Harvic Stack",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem maxime quae fuga ea labore corrupti iusto at! Voluptatem, deserunt sit commodi ullam reprehenderit ipsa libero fugiat distinctio. Nesciunt, animi.",
+      "A Great website to browse around",
   },
   {
-    year: 2020,
+    year: 2023,
     title: "content Creator",
     details:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem maxime quae fuga ea labore corrupti iusto at! Voluptatem, deserunt sit commodi ullam reprehenderit ipsa libero fugiat distinctio. Nesciunt, animi.",

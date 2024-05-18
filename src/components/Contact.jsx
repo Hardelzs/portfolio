@@ -9,7 +9,7 @@ const Contact = () => {
         Contact
       </h1>
       <form
-        action="https://getform.io/f/b830da70-bdd8-4630-a25d-d238c3233213"
+        action="https://getform.io/f/lbkmvkjb"
         method="POST"
         encType="multipart/form-data"
       >
