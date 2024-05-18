@@ -87,6 +87,9 @@ javascript
 
 Replace the placeholder information such as "your-username," "your.email@example.com," and "Your LinkedIn Profile" with your actual details. Additionally, you can create separate files like `CONTRIBUTING.md` and `LICENSE` for more detailed contributing guidelines and license information.
 
+`#online `
+check Hardelz.netlify.com
+
 
 
 
