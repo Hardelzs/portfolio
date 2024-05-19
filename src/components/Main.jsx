@@ -2,9 +2,9 @@
 import React from "react";
 // import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
 import { TypeAnimation } from "react-type-animation";
+import { FaXTwitter } from "react-icons/fa6";
 
 import {
-  FaTwitter,
   FaFacebook,
   FaInstagram,
   FaLinkedinIn,
@@ -52,7 +52,7 @@ const Main = () => {
           </h2>
               {" "}
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
+                  <FaXTwitter className="cursor-pointer" size={20} />
                   <FaFacebook className="cursor-pointer" size={20} />
                   <FaInstagram className="cursor-pointer" size={20} />
                   <FaLinkedinIn className="cursor-pointer" size={20} /> 
