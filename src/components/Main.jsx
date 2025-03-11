@@ -3,7 +3,6 @@ import React from "react";
 // import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
 import { TypeAnimation } from "react-type-animation";
 import { FaXTwitter } from "react-icons/fa6";
-// import back from ".../public/back"
 
 import {
   FaFacebook,
@@ -18,7 +17,7 @@ const Main = () => {
             {" "}
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="/back.png"
+        src=""
         alt=""
       />
         {" "}
