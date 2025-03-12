@@ -27,6 +27,18 @@ const data = [
     details:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem maxime quae fuga ea labore corrupti iusto at! Voluptatem, deserunt sit commodi ullam reprehenderit ipsa libero fugiat distinctio. Nesciunt, animi.",
   },
+  {
+    year: 2023,
+    title: "content Creator",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem maxime quae fuga ea labore corrupti iusto at! Voluptatem, deserunt sit commodi ullam reprehenderit ipsa libero fugiat distinctio. Nesciunt, animi.",
+  },
+  {
+    year: 2023,
+    title: "content Creator",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem maxime quae fuga ea labore corrupti iusto at! Voluptatem, deserunt sit commodi ullam reprehenderit ipsa libero fugiat distinctio. Nesciunt, animi.",
+  },
 ];
 const Work = () => {
   return (
