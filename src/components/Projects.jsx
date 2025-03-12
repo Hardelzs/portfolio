@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ProjectsItem from "./ProjectsItem";
-import mekin from "../assets/mekin.png";
-import portfolio from "../assets/portfolio.png";
 import harvic from "../assets/harvic.png";
-import calculator from "../assets/calculator.png";
+import lume from "../assets/lume.png";
+import hdrsalon from "../assets/hdrsalon.png";
+import siralos from "../assets/siralos.png";
 
 const Projects = () => {
   return (
@@ -16,10 +16,10 @@ const Projects = () => {
          This are few of my project over the years, some are just html and css while some comprises some programming language for more information check my github page {/*"https://github.com/Hardelzs",*/} while some are complete and some are not complete. For full information follow me on {/* "twitter.com/hardex2325"*/} 
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectsItem img={calculator} title="calculator App" />
+        <ProjectsItem img={lume} title="Matching App"/>
         <ProjectsItem img={harvic} title="News App" />
-        <ProjectsItem img={mekin} title="Nation Solver App" />
-        <ProjectsItem img={portfolio} title="My Portfolio App" />
+        <ProjectsItem img={hdrsalon} title="Hair salon App" />
+        <ProjectsItem img={siralos} title="Laundy App" />
       </div>
     </div>
   );
