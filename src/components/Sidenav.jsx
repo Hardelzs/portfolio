@@ -22,6 +22,7 @@ const Sidenav = () => {
         className="absolute top-4 right-4 z-[99] md:hidden"
       />
       {nav ? (
+        // Monile view
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a
             onClick={handleNav}
@@ -67,7 +68,9 @@ const Sidenav = () => {
       ) : (
         ""
       )}
-      <div className="md:block hidden fixed top-[25%] z-10">
+
+      {/* desktop view  */}
+      <div className="md:block hidden left-10 fixed top-[30%] z-10">
         <div className="flex flex-col">
           <a
             href="#main"
