@@ -47,10 +47,6 @@ const Contact = () => {
             name="subject"
           />
         </div>
-        <div>
-          <label className="uppercase text-sm py-2">Email </label>
-          <input type="email" name="email" />
-        </div>
         <div className="flex flex-col py-2">
           <label className="uppercase text-sm py-2">Message </label>
           <textarea
