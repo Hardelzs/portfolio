@@ -53,11 +53,18 @@ const Main = () => {
           </h2>
               {" "}
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-                  <FaXTwitter className="cursor-pointer" size={20} />
-                  <FaFacebook className="cursor-pointer" size={20} />
-                  <FaInstagram className="cursor-pointer" size={20} />
-                  <FaLinkedinIn className="cursor-pointer" size={20} /> 
-              {" "}
+            <a href="https://x.com/hardelz23" target="_blank" rel="noopener noreferrer">
+              <FaXTwitter className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://web.facebook.com/hardelz23" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.instagram.com/hardelz23/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://linkedin.com/in/your_linkedin_handle" target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn className="cursor-pointer" size={20} />
+            </a>
           </div>
              {" "}
         </div>
