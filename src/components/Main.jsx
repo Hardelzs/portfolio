@@ -30,7 +30,7 @@ const Main = () => {
                   I&apos;m Hardelz {" "}
           </h1>
               {" "}
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 font-mono">
+          <h2 className="flex sm:text-3xl text-3xl pt-4 text-gray-800 font-mono">
                   I&apos;m a {" "}
             <TypeAnimation
               sequence={[

@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+    // import { NavLink } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const ProjectsItem = ({ img, title }) => {
@@ -11,11 +12,13 @@ const ProjectsItem = ({ img, title }) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">React Js</p>
-        <a href="/">
+        
+        <p to="/MainProject">
           <p className="text-center p-3 rounded-lg bg:white text-gray-700 font-bold cursor-pointer text-lg">
             More Info
           </p>
-        </a>
+        </p>
+        
       </div>
     </div>
   );
