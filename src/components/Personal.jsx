@@ -35,7 +35,7 @@ const Personal = () => {
   return (
     <motion.div
       id="personal"
-      className="max-w-[1040px] m-auto md:pl-20 p-4 py-16"
+      className="max-w-[1040px] mx-auto px-2 sm:px-4 py-8 sm:py-16"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
@@ -43,7 +43,7 @@ const Personal = () => {
     >
       {/* Title */}
       <motion.h1
-        className="text-4xl font-bold text-center text-[#001b5e]"
+        className="text-3xl sm:text-4xl font-bold text-center text-[#001b5e] mb-4"
         variants={item}
       >
         Resume
@@ -51,43 +51,43 @@ const Personal = () => {
 
       {/* Skills Section */}
       <motion.h2
-        className="text-2xl font-bold text-[#001b5e] mt-8 mb-4"
+        className="text-xl sm:text-2xl font-bold text-[#001b5e] mt-8 mb-4"
         variants={item}
       >
         MyWeapons
       </motion.h2>
       <motion.div
-        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6"
         variants={container}
       >
         {skills.map((skill, idx) => (
           <motion.div
             key={idx}
-            className="flex flex-col items-center bg-white shadow-md rounded-lg p-4 hover:scale-105 transition-transform duration-300"
+            className="flex flex-col cursor-pointer items-center bg-white hover:bg-[#eff5fd] shadow-md rounded-lg p-3 sm:p-4 hover:scale-105 transition-transform duration-700"
             variants={item}
           >
             {skill.icon}
-            <p className="mt-2 font-medium">{skill.name}</p>
+            <p className="mt-2 text-xs sm:text-sm font-medium text-center">{skill.name}</p>
           </motion.div>
         ))}
       </motion.div>
 
       {/* Certifications Section */}
       <motion.h2
-        className="text-2xl font-bold text-[#001b5e] mt-12 mb-4"
+        className="text-xl sm:text-2xl font-bold text-[#001b5e] mt-10 sm:mt-12 mb-4"
         variants={item}
       >
         Certifications
       </motion.h2>
-      <motion.ul className="space-y-4" variants={container}>
+      <motion.ul className="space-y-3 sm:space-y-4" variants={container}>
         {certifications.map((cert, idx) => (
           <motion.li
             key={idx}
-            className="bg-gray-100 p-4 rounded-lg shadow-sm border-l-4 border-[#001b5e]"
+            className="bg-gray-100 p-3 sm:p-4 rounded-lg shadow-sm border-l-4 border-[#001b5e]"
             variants={item}
           >
-            <p className="font-bold">{cert.title}</p>
-            <p className="text-sm text-gray-600">
+            <p className="font-bold text-sm sm:text-base">{cert.title}</p>
+            <p className="text-xs sm:text-sm text-gray-600">
               {cert.issuer} • {cert.year}
             </p>
           </motion.li>
