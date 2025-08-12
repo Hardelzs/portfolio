@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { motion } from "framer-motion";
 import WorkItem from "./WorkItem";
 
 const data = [
@@ -38,23 +39,50 @@ const data = [
     title: "Keyaura",
     details:
       "An advanced web platform aimed at delivering seamless digital experiences through AI-powered features, real-time data integration, and a highly interactive user interface.",
-  }
+  },
 ];
 
 const Work = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.25 },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  };
+
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Work</h1>
-      {data.map((item, idx) => (
-        <WorkItem
-          key={idx}
-          year={item.year}
-          title={item.title}
-          duration={item.duration}
-          details={item.details}
-        />
+    <motion.div
+      id="work"
+      className="max-w-[1040px] m-auto md:pl-20 p-4 py-16"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+      variants={container}
+    >
+      <motion.h1
+        className="text-4xl font-bold text-center text-[#001b5e]"
+        variants={item}
+      >
+        Work
+      </motion.h1>
+
+      {data.map((itemData, idx) => (
+        <motion.div key={idx} variants={item}>
+          <WorkItem
+            year={itemData.year}
+            title={itemData.title}
+            duration={itemData.duration}
+            details={itemData.details}
+          />
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
