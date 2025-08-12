@@ -1,12 +1,13 @@
 // import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaTwitter, FaArrowUp, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaArrowUp, FaEnvelope } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const socials = [
     { icon: <FaGithub size={20} />, link: "https://github.com/Hardelzs" },
-    { icon: <FaTwitter size={20} />, link: "https://twitter.com/hardex2325" },
-    { icon: <FaEnvelope size={20} />, link: "mailto:hardelz@gmail.com" },
+    { icon: <FaXTwitter size={20} />, link: "https://twitter.com/hardex2325" },
+    { icon: <FaEnvelope size={20} />, link: "mailto:adewaleezekiel43@gmail.com" },
   ];
 
   return (

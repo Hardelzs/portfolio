@@ -1,6 +1,7 @@
 // import React from "react";
 import { motion } from "framer-motion";
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt } from "react-icons/fa";
+
 import { SiTailwindcss, SiFlutter, SiFirebase } from "react-icons/si";
 
 const skills = [
