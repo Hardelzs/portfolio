@@ -1,0 +1,4 @@
+ - restructure the code
+ - install react router
+ - implement shadcn for dark mode toggle
+ - tamper with the design of the project

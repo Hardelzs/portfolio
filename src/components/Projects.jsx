@@ -12,9 +12,31 @@ const Projects = () => {
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">
         Projects
       </h1>
-      <p className="text-center py-8">
-         This are few of my project over the years, some are just html and css while some comprises some programming language for more information check my github page {/*"https://github.com/Hardelzs",*/} while some are complete and some are not complete. For full information follow me on {/* "twitter.com/hardex2325"*/} 
-      </p>
+<p className="text-center py-8">
+  These are a few of my projects over the years, built with technologies such as 
+  HTML, CSS, JavaScript, React, Tailwind CSS, Flutter, Firebase, and Node.js. 
+  For more details, visit my{" "}
+  <a
+    href="https://github.com/Hardelzs"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 underline hover:text-blue-700"
+  >
+    GitHub
+  </a>
+  . 
+  For updates and more information, follow me on{" "}
+  <a
+    href="https://twitter.com/hardex2325"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 underline hover:text-blue-700"
+  >
+    Twitter
+  </a>
+  .
+</p>
+
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectsItem img={lume} title="Matching App"/>
         <ProjectsItem img={harvic} title="News App" />
