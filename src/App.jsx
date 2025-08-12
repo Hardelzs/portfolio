@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 import {KindeProvider} from "@kinde-oss/kinde-auth-react";
 import Personal from './components/Personal';
 import MainProject from './components/MainProject';
+import Footer from './components/Footer';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Projects />
       <Personal />
       <Contact />
+      <Footer/>
       <MainProject />
       <KindeProvider
 		clientId="fa55d0e41b9046c29fd385eb663daeb1"
