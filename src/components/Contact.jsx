@@ -21,7 +21,8 @@ const Contact = () => {
       </motion.h1>
 
       {/* Intro Text Animation */}
-      <motion.p
+      <form>
+        <motion.p
         className="text-center text-gray-600 mb-8 max-w-[600px] mx-auto"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -112,6 +113,7 @@ const Contact = () => {
           Send Message 🚀
         </motion.button>
       </motion.form>
+      </form>
     </div>
   );
 };
