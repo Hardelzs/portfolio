@@ -4,11 +4,11 @@ import Footer from "../components/Footer"; // assuming Footer is in components f
 
 const projects = [
   {
-    title: "Matching App (Yearbook Nation)",
+    title: "Yearbook",
     description:
-      "A matching platform designed for schools and events to connect people with similar interests. Built with React and Tailwind CSS.",
-    github: "",
-    live: "",
+      "A projecs that allow you to store your daily life in a row, amazings things or sad things . Just like a diary but helps you store it with emoji.",
+    github: "https://github.com/Hardelzs/year-book",
+    live: "https://year-book.vercel.app/",
   },
   {
     title: "News App (Siralos)",
