@@ -63,7 +63,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="text-blue-500 underline hover:text-blue-700"
           >
-            Twitter
+            X
           </a>
           .
         </motion.p>
@@ -84,7 +84,7 @@ const Projects = () => {
         </div>
 
         {/* Second row: 2 items centered */}
-        <div className="flex justify-center gap-12 max-w-[1040px] text-center ml-32">
+        <div className="md:flex justify-center gap-12 hidden max-w-[1040px] text-center ml-32">
           <motion.div variants={item}>
             <ProjectsItem img={keyaura} title="Laundry App" />
           </motion.div>
