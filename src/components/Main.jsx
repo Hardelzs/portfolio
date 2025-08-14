@@ -15,6 +15,7 @@ const Main = () => {
   // const [login, register] = useKindeAuth();
   return (
     <div id="main">
+      
             {" "}
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"

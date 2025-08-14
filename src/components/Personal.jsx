@@ -17,7 +17,7 @@ const skills = [
 ];
 
 const certifications = [
-  { year: 2022, title: "Frontend Development Certification", issuer: "FreeCodeCamp" },
+  { year: 2022, title: "Frontend && Backend Development Certification", issuer: "FreeCodeCamp" },
   { year: 2023, title: "JavaScript Algorithms & Data Structures", issuer: "FreeCodeCamp" },
   { year: 2024, title: "Flutter App Development", issuer: "Udemy" },
 ];
