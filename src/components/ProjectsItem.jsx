@@ -11,10 +11,10 @@ const ProjectsItem = ({ img, title }) => {
         <h3 className="text-2xl font-bold text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">React Js</p>
+        <p className="pb-4 pt-2 text-white text-center">ReactJs && TypeScript</p>
         <Link
           to="/projects"
-          className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg block"
+          className="text-center p-3 rounded-lg bg-white hover:bg-[#00000011] text-gray-700 font-bold cursor-pointer text-lg block"
         >
           More Info
         </Link>

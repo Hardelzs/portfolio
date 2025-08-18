@@ -73,23 +73,23 @@ const Projects = () => {
         {/* First row: 3 items */}
         <div className="grid sm:grid-cols-3 gap-12 mb-12">
           <motion.div variants={item}>
-            <ProjectsItem img={yearbook} title="Matching App" />
+            <ProjectsItem img={yearbook} title="YearBook" />
           </motion.div>
           <motion.div variants={item}>
-            <ProjectsItem img={siralos} title="News App" />
+            <ProjectsItem img={siralos} title="LaundryApp" />
           </motion.div>
           <motion.div variants={item}>
-            <ProjectsItem img={hdrsalon} title="Hair salon App" />
+            <ProjectsItem img={hdrsalon} title="HairSalonApp" />
           </motion.div>
         </div>
 
         {/* Second row: 2 items centered */}
         <div className="md:flex justify-center gap-12 hidden max-w-[1040px] text-center ml-32">
           <motion.div variants={item}>
-            <ProjectsItem img={keyaura} title="Laundry App" />
+            <ProjectsItem img={keyaura} title="PianoApp" />
           </motion.div>
           <motion.div variants={item}>
-            <ProjectsItem img={keyrush} title="Laundry App" />
+            <ProjectsItem img={keyrush} title="TypeTestingApp" />
           </motion.div>
         </div>
       </motion.div>
