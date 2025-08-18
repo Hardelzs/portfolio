@@ -11,32 +11,32 @@ const projects = [
     live: "https://year-book.vercel.app/",
   },
   {
-    title: "News App (Siralos)",
+    title: "Siralos",
     description:
-      "A responsive news application fetching live articles and categorizing them for easy reading.",
-    github: "",
-    live: "",
+      "A responsive website for laudry services that allow customer to book their laundry online and get it delivered to their doorstep.",
+    github: "https://github.com/Hardelzs/Siralos",
+    live: "https://siralos.netlify.app/",
   },
   {
-    title: "Hair Salon App (HDR Salon)",
+    title: "Hair Salon App (HDR)",
     description:
       "A booking and service showcase platform for salons, featuring responsive UI and integrated contact forms.",
     github: "",
-    live: "",
+    live: "https://hdrsalon.netlify.app/",
   },
   {
-    title: "Laundry App (Keyaura)",
+    title: "Piano App (Keyaura)",
     description:
-      "A Flutter mobile app for on-demand laundry services with order tracking and Firebase backend.",
-    github: "",
-    live: "#", // replace with actual link
+      "This is a piano app that allows users to play piano online with a beautiful UI and sound effects. And some shortcuts for easy navigation",
+    github: "https://github.com/Hardelzs/virtualKey",
+    live: "https://keyaura.vercel.app/", 
   },
   {
-    title: "Laundry App (Keyrush)",
+    title: "Typing Test(Keyrush)",
     description:
-      "A variation of the Keyaura laundry concept with enhanced UI and scheduling features.",
-    github: "",
-    live: "#", // replace with actual link
+      "This is a typing test app that allows users to test their typing speed and accuracy with various difficulty levels and themes.",
+    github: "https://github.com/Hardelzs/type0",
+    live: "https://keyrush-kappa.vercel.app/", 
   },
 ];
 

@@ -64,7 +64,7 @@ const Contact = () => {
               className="border-2 rounded-lg p-3 flex border-gray-300 focus:border-[#001b5e] outline-none transition-all duration-200"
               type="text"
               name="phone"
-              placeholder="+234 800 000 0000"
+              placeholder="+1 212 000 0000"
             />
           </div>
         </div>
